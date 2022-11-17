@@ -1,0 +1,68 @@
+Types of NoSQL Databases
+
+1. Key-value pair
+Key-value NoSQL solutions include Dynamo, Redis, Riak, Tokyo Cabinet/Tyrant, Voldemort, Amazon SimpleDB, and Oracle BDB.
+
+2. Column
+column-based NoSQL databases include Cassandra, HBase, and Hypertable.
+
+3. Document
+Document-oriented NoSQL database solutions include MongoDB, CouchDB, Riak, Amazon SimpleDB, and Lotus Notes.
+
+4. Graph
+Large-scale deployments of graph NoSQL can become significantly complicated due to many entity types and relationships. Graph-based NoSQL database solutions include Neo4J, Infinite Graph, and FlockDB.
+
+5. Multi-model
+Examples of multi-model NoSQL database solutions include OrientDB, ArangoDB, and MarkLogic Server. 
+
+
+Examples of NoSQL
+
+1. MongoDB
+MongoDB is one of the foremost open-source NoSQL systems. It is a document-oriented database that uses dynamic schemas to store JSON-like documents. This database solution features a flexible data model, enabling users to store unstructured data. Users can also access full indexing support and replication through intuitive API.
+
+MongoDB’s popularity among developers includes its flexible data model and intuitive API. Other key features of this solution include:
+
+Ad-hoc queries: Support for range, field, and regular-expression queries that are capable of returning complete documents, particular fields from inside documents, and even random result samples.
+Replication: High availability is achieved through replica sets, including multiple data copies. The primary replica handles writes, and any replica can serve read requests. In case of primary replica failure, a secondary replica takes over as the primary replica.
+Indexing: Support for different index types, including single field, multikey (array), compound (multiple fields), geospatial, hashed, and text. Document fields can be indexed using both primary and secondary indices. 
+2. Apache CouchDB
+This web-oriented NoSQL database is open-source and stores documents using the JSON data exchange format. The CouchDB API is based on HTTP, and the solution uses JavaScript for indexing, transforming, and combining documents. Unlike relational databases, it uses a schema-free data model to simplify record management across endpoints.
+
+CouchDB is backed by an active dev community that constantly works to enhance its ease of use and ensure a web-first approach. Additionally, its open-source nature minimizes the chances of ‘vendor lock-in’, an advantage not seen in the case of proprietary NoSQL solutions.
+
+CouchDB is free to use and can integrate swiftly with existing data management infrastructure. More user control also translates to greater flexibility and applicability for varying business needs; the solution is optimized for general-purpose document storage, efficient data synchronization, and even ‘offline-first’ setups. Organizations rely on CouchDB for creating scalable, reliable, and durable infrastructure.
+
+3. Oracle NoSQL Database
+This proprietary NoSQL database supports key-value and JSON table data models and is built to operate either on-premise or over the cloud. Developers leverage Oracle NoSQL Database Cloud Service to create applications using column, document, and key-value data models.
+
+The key features of Oracle NoSQL Database include:
+
+Delivery of predictable, within-milliseconds response times and high availability through robust data replication.
+Support for both provisioned and on-demand capacity modes.
+ACID transactions, comprehensive security, low pay-per-use pricing, and serverless scaling.
+Simplified access through a user-friendly application programming interface (API).
+Wide support for data models for various business requirements.
+End-to-end compatibility with on-premise Oracle NoSQL Database.
+Support for modern development languages, allowing users to access NoSQL databases using SDKs for Python programmatically, Java, Spring, Node.JS, Go, and .NET, as well as direct access through RESTful APIs.
+Application execution and data storage across cloud and on-premise services without the risk of vendor lock-in.
+Development tools integration allows dev teams to use preferred integrated development environments such as IntelliJ or Eclipse for querying NoSQL cloud services through prebuilt plug-ins.
+Rich indexing into JSON lets users improve query performance by creating an index on any JSON field at any level of the document hierarchy.
+Native analytics support allows developers to analyze NoSQL data natively, including parallel scalability and cross-collection queries, without data having to be moved.
+4. Riak
+Built by Basho Technologies, this key-value store NoSQL database is open-source and written in Erlang. It features automatic data distribution and built-in fault-tolerance replication, setting its performance apart from some of the other solutions in this space.
+
+This NoSQL database solution is web scalable and based on the Dynamo database system. It is highly distributed, scalable, and reliable in varying business environments. The solution is built for the web, mobile, and cloud. Besides its free, open-source version, Riak has a commercial version for enterprise use.
+
+Riak’s fault tolerance stems from its high distribution across several nodes and masterless implementation that help avoid a single point of failure. It is ideal for distributed cloud data architectures and high-volume read-and-write applications. Users generally prefer Riak for building cloud file systems.
+
+5. Objectivity InfiniteGraph
+InfiniteGraph is a highly specialized graph database focused on graph data models. It is implemented in Java and is ideal for spotting hidden trends in massive, complex, and highly connected datasets. This NoSQL database solution is distributed in nature and implemented in C++ and Java.
+
+InfiniteGraph is scalable, cross-platform, cloud-powered, and built for handling high throughput levels. It is capable of swiftly and efficiently performing queries that are otherwise difficult to execute, such as locating all paths or the shortest path connecting two items.
+
+InfiniteGraph is the preferred NoSQL solution for services and applications that involve solving graph problems in business environments. Its ‘DO’ query language supports complex graph and value-based queries. Apart from graph databases, it can also handle complex object queries. This solution is popularly used in industry verticals, including governance, healthcare, telecommunications, cybersecurity, finance, manufacturing, and networking.
+
+
+
+HBase
